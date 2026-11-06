@@ -1,0 +1,15 @@
+// No account_id on purpose. Workers Builds supplies it from this project's own
+// Cloudflare account.
+{
+  "name": "sillyvoicesinmyhead",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./public"
+  },
+  "workers_dev": false,
+  "preview_urls": false,
+  "routes": [
+    { "pattern": "sillyvoicesinmyhead.com", "custom_domain": true },
+    { "pattern": "www.sillyvoicesinmyhead.com", "custom_domain": true }
+  ]
+}
